@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modalapp</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="h-screen w-screen bg-slate-950 text-black flex justify-center items-center overflow-hidden relative">
+        <div class="modal scale-0 absolute w-[40%] h-[35%] z-40 opacity-80 backdrop-blur-md text-opacity-100 rounded-md bg-black flex flex-col gap-0">
+            <div class="w-full h-20 overflow-hidden flex justify-between items-center px-4">
+            <div class="heading w-[50%] ml-3   text-white text-opacity-100 font-semibold text-3xl">Share my profile</div>
+            <button class=" cross w-[7%] text-2xl bg-white text-black rounded-full"><i class="ri-close-line"></i></button>
+            </div>
+            <div class="my-3 mx-auto h-1 w-[90%] bg-white rounded-lg"></div>
+            <div class="w-full text-white mx-10 text-[20px]">Share this via</div>
+            <div class="flex w-full h-20 mt-4 justify-evenly items-center text-3xl text-white">
+                <button><i class="ri-instagram-line"></i></button>
+                <button><i class="ri-facebook-circle-line"></i></button>
+                <button><i class="ri-linkedin-box-line"></i></button>
+                <button><i class="ri-github-line"></i></button>
+            </div>
+            
+        </div>
+        <div class="h-28 w-28 rounded-full absolute z-2  shadow-2xl shadow-red-500 border-red-500 border-opacity-25 bg-red-500 animate-wiggle top-5 left-[33vw] scale-100"></div>
+        <div class="myintro min-h-[65%] min-w-[23%] bg-white border-2 border-slate-950 text-white flex justify-start flex-col rounded-lg bg-opacity-20 absolute z-10 items-center gap-12 pt-7 px-4">
+            <div class="w-[140px] h-[140px] rounded-full bg-white overflow-hidden">
+                <img src="./Screenshot 2023-10-02 193657.png" alt="" class="w-full h-full object-cover object-center">
+            </div>
+            <div class="text-[24px] font-semibold">Sebanti Dasgupta</div>
+            <div>Founder , Codehelp</div>
+            <div class="flex flex-row gap-5">
+                <button class="but border-[1px] py-1 px-3 text-white border-white hover:bg-white hover:text-black">Share my Profile</button>
+                <button class="border-[1px] py-1 px-3 border-white  hover:bg-white hover:text-black">Follow Me</button>
+            </div>
+        </div>
+        <div class="h-36 w-36 rounded-full absolute z-2 shadow-2xl animate-tran shadow-violet-500 bg-violet-500 bottom-5 right-[33vw] scale-100"></div>
+    </div>
+</body>
+</html>
